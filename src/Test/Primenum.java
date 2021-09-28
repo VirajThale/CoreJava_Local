@@ -3,19 +3,21 @@ package Test;
 public class Primenum {
 
 	public static void main(String[] args) {
-		int num= 25;
+		int numb= 25;
 		int i =2;
 		boolean f=false;
 		
-		while (i<=num / 2) {
-			if(num%2==0) {
+		while (i<=numb / 2) {
+			if(numb%2==0) {
 				f=true;
-				break;}
+				break;
+				//need break 
+			}
 			i++;
 		}
 		if(!f)
-			System.out.println(num+": the number is prime");
+			System.out.println(numb+": the is number is prime");
 		else
-			System.out.println(num+": is the number is not prime");
+			System.out.println(numb+": is the number is not prime");
 	}
 }
