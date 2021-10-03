@@ -17,9 +17,9 @@ public class primefor {
 		
 		
 		if(!flag)
-			System.out.println(num+" is Prime Number");
-		else
-			System.out.println(num+" is not Prime Number");
+			
+				
+				System.out.println(num+" is not Prime Number");
 		
 
 	}

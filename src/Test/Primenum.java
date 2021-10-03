@@ -15,6 +15,7 @@ public class Primenum {
 			}
 			i++;
 		}
+		
 		if(!f)
 			System.out.println(numb+": the is number is prime");
 		else
